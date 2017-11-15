@@ -6,6 +6,16 @@ Example: ```213104d2 -> addi $s1, $t1, 1234```
 
 It is based on Orvar Segerström's more-capable [mips-disasm](https://github.com/0rvar/mips-dasm) (which also works on files), with small tweaks to make the output more compact for waveform-based debugging.
 
+**Before**
+
+<img src="https://926fb2d8-a-62cb3a1a-s-sites.googlegroups.com/site/ca17fall/resources/software-tools/before.png" width=800 alt="GTKWave trace before filtering">
+
+**After**
+
+<img src="https://926fb2d8-a-62cb3a1a-s-sites.googlegroups.com/site/ca17fall/resources/software-tools/after.png" width=800 alt="GTKWave trace after filtering">
+
+
+
 ## Requirements
 gcc or clang
 
