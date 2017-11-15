@@ -2,7 +2,7 @@
 mips-dasm-filter is a MIPS disassembler filter process for [GTKWave](http://gtkwave.sourceforge.net/) written in C. 
 It takes 32-bit hexadecimal values on stdin and generates their MIPS mnemonic on stdout.
 
-Example: ```01398821 -> addu $s1, $t1, $t9```
+Example: ```213104d2 -> addi $s1, $t1, 1234```
 
 It is based on Orvar Segerström's more-capable [mips-disasm](https://github.com/0rvar/mips-dasm) (which also works on files), with small tweaks to make the output more compact for waveform-based debugging.
 
