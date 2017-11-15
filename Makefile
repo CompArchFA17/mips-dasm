@@ -1,8 +1,8 @@
 default:
-	gcc -Wall -o mips-dasm main.c mips_dasm.c
+	gcc -Wall -o mips-dasm-filter main.c mips_dasm.c
 
 clang:
-	clang -g -Wall -o mips-dasm main.c mips_dasm.c
+	clang -g -Wall -o mips-dasm-filter main.c mips_dasm.c
 
 tests:
 	gcc -Wall -o tests instructions_test.c mips_dasm.c

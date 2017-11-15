@@ -67,7 +67,7 @@ int mips_disassemble(mips_instruction_t* instruction, uint32_t number) {
 
 
     if(instruction->name == NULL) {
-        printf("Did not find name for OP 0x%x:%d[%d,%d] ; FUNCT 0x%x:%d[%d,%d]\n", op, op, op_upper, op_lower, funct, funct, funct_upper, funct_lower);
+        //printf("Did not find name for OP 0x%x:%d[%d,%d] ; FUNCT 0x%x:%d[%d,%d]\n", op, op, op_upper, op_lower, funct, funct, funct_upper, funct_lower);
         return 0;
     }
 
